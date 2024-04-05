@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.notes.notesappfx.AboutMeController">
+   <center>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <center>
+            <AnchorPane prefHeight="372.0" prefWidth="562.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="126.0" fitWidth="120.0" layoutX="47.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:/C:/Users/chusa/IdeaProjects/notesAppFx/src/main/java/com/notes/notesappfx/profile.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="217.0" layoutY="50.0" text="DULLAT">
+                     <font>
+                        <Font name="System Bold" size="29.0" />
+                     </font>
+                  </Label>
+                  <Hyperlink fx:id="mouseClickedLink" layoutX="201.0" layoutY="99.0" onAction="#mouseClickedGithub" text="https://github.com/dullat" underline="true" />
+                  <Hyperlink fx:id="mouseClickedLink1" layoutX="201.0" layoutY="135.0" onAction="#mouseClickedInsta" text="https://instagram.com/dullat101" underline="true" />
+                  <Hyperlink layoutX="158.0" layoutY="229.0" onAction="#visitOtherProject" prefHeight="23.0" prefWidth="229.0" text="image to ASCII art" />
+                  <Label layoutX="47.0" layoutY="231.0" text="visit other project:">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="47.0" layoutY="200.0" text="source code is">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Hyperlink layoutX="129.0" layoutY="198.0" onAction="#visitSourceCode" prefHeight="23.0" prefWidth="229.0" text="here" />
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </center>
+</BorderPane>
