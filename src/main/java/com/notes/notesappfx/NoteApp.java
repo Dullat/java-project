@@ -36,7 +36,7 @@ public class NoteApp extends Application {
         primaryStage.setResizable(false);
         primaryStage.show();
 
-        // get login btn directly using its fx id
+        // get login btn using its fx id
         loginButton = (Button) loader.getNamespace().get("loginButton");
         usernameTextField = (TextField) loader.getNamespace().get("usernameTextField");
         passwordTextField = (TextField) loader.getNamespace().get("passwordTextField");

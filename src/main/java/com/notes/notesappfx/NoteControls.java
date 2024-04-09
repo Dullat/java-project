@@ -18,10 +18,4 @@ public class NoteControls extends NoteApp {
         Stage stage = (Stage) cancleButton.getScene().getWindow();
         stage.close();
     }
-
-    public void initialize() {
-        // Initialize any necessary components or data
-    }
-
-    // You can add event handlers or methods for handling user interactions here
 }
