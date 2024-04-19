@@ -6,7 +6,7 @@ Minor project for college assignment
 # Dependencies
 
 - JavaFx
-- Also used SceneBuilder for GUI
+- SceneBuilder (GUI)
 
 # Set-up
 
